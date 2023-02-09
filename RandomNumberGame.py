@@ -5,7 +5,7 @@ time.sleep(2)
 n = random.randint(1, 25)
 print('Number has been generated!!\nYou have 4 chances to guess the number')
 
-count = 4
+count = 10
 
 while count!=0:
     a = int(input('Guess the number: '))
